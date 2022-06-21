@@ -1,11 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,500&display=swap");
 
-@mixin theme($theme: DarkGray) {
-  background: $theme;
-  box-shadow: 0 0 1px rgba($theme, 0.25);
-  color: #fff;
+body {
+  margin: 0;
+  background-color: #20232a;
 }
 
-div {
-  font-family: Shizuru, sans-serif;
+#root {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .description {
+    color: #61dafb;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
 }
