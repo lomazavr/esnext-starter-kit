@@ -16,13 +16,6 @@ module.exports = {
         "at-rule-no-unknown": null,
       },
     },
-    // {
-    //   files: ["**/*.{js,jsx,ts,tsx}"],
-    //   customSyntax: "@stylelint/postcss-css-in-js",
-    //   rules: {
-    //     "at-rule-no-unknown": null,
-    //   },
-    // },
   ],
   rules: {
     "plugin/declaration-block-no-ignored-properties": true,
