@@ -16,7 +16,7 @@ Boilerplate for Webpack ESNext projects.
 
 ### Features:
 
-- ES6 Support via [babel](https://babeljs.io/) (v7)
+- ESNext Support via [babel](https://babeljs.io/) (v7)
 - JavaScript Linting via [eslint](https://eslint.org/)
 - SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
 - Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
