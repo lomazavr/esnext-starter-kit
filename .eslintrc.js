@@ -1,6 +1,7 @@
 module.exports = {
   parser: "@babel/eslint-parser",
-  extends: ["eslint:recommended", "prettier"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  plugins: ["simple-import-sort", "prettier"],
   env: {
     browser: true,
     node: true,
@@ -12,8 +13,12 @@ module.exports = {
     requireConfigFile: false,
   },
   rules: {
-    semi: 2,
+    semi: ["error", "always"],
+    indent: ["error", 2, { SwitchCase: 1 }],
+    "prettier/prettier": "warn",
     "no-debugger": "warn",
     "no-console": "warn",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   },
 };

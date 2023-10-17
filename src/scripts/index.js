@@ -1,4 +1,5 @@
 import "../styles/index.scss";
+
 import svgLogo from "../images/logo.svg";
 
 document.addEventListener("DOMContentLoaded", init);
@@ -8,5 +9,6 @@ function init() {
   const logo = document.createElement("img");
   logo.src = svgLogo;
   logo.alt = "logo";
+  logo.classList.add("logo");
   root.appendChild(logo);
 }
